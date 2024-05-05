@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  background: #51e2f5;
+  width: 92%;
+  padding: 40px;
+  text-transform: uppercase;
+}
+.header{
+  color: #22438C;
+  font-family: monospace;
+  font-size: 25px;
+  text-decoration-style: none;
+}
+nav li{
+  list-style: none;
+  flex-direction: horizontal;
+  display: absolute;
+  padding: 18px 22px;
+}
+li a{
+  color: #fff;
+  text-decoration: none;
+  font-family: calibri;
+  outline: none;
+  overflow: hidden;
+}
+.sidebar{
+  display: none;
+  background: green;
+  position: absolute;
+  right: 10px;
+  left: 225px;
+  border-radius: 10px;
+  width: 50%;
+  height: 50vh;
+}
+li:hover{
+  border: red solid;
+  background: #22438C;
+  transition: 800ms;
+  border-radius: 10px;
+  font-size: 20px;
+  overflow: hidden;
+}
+.header svg {
+  padding: 0 20px;
+  width: auto;
+}
+.container1{
+  background: whitesmoke;
+  padding: 50px;
+  width: 85%;
+}
+.section1{
+  font-family: sans-serif;
+  font-size: 30px;
+  justify-content: flex-start;
+  text-wrap: none;
+  margin:0 0 10px 0;
+  padding: 20px;
+}
+.container2{
+  background: navajowhite;
+  padding: 50px;
+  width: 85%;
+  box-shadow: 5px 0 20px green;
+}
+.container3{
+  background: whitesmoke;
+  padding: 50px;
+  width: 85%;
+  margin: 30px 0 10px;
+}
+.container3 img{
+  width : 300px;
+  height: auto;
+  border-radius: 5px;
+}
+.serv a{
+  text-decoration: none;
+  color: orangered;
+}
+.container4{
+  background: whitesmoke;
+  padding: 50px;
+  width: 85%;
+}
+.container4 img{
+  width: 305px;
+  height: auto;
+  display: flex;
+  padding: 50px 0;
+  border-radius: 5px;
+}
+.card{
+  width: 250px;
+  height: auto;
+  border:red solid;
+  margin: 60px;
+}
+.serv-loc{
+  line-height: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  justify-items: fit;
+}
+.serv-head{
+  font-size: 30px;
+  font-family: calibri;
+  margin: auto;
+  text-align: center;
+}
+.homepi{
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
+}
+.homepii{
+  text-align: center;
+  font-family: calibri;
+  margin: auto;
+  font-size: 28px;
+  padding: 0px;
+}
+.note{
+  background: yellow;
+  font-family: monospace;
+}
+.container5{
+  background: white;
+  padding: 50px;
+  width: 85%;
+}
+.kings{
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5rem;
+}
+.container9{
+  background: #20263e;
+  padding: 50px;
+  width: 86%;
+  position: relative;
+  height: auto;
+}
+.hgroup a{
+  color: white ;
+  list-style: none;
+  text-decoration: none;
+}
+.hgroup{
+  color: red;
+  padding: 0;
+  margin: 0;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.copyright{
+  text-align: center;
+  color: #e1b382;
+  font-family: monospace;
+  font-size: 15px;
+}
